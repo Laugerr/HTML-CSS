@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div >
+            <h1>Travel reservation form</h1>
+            <h3>* denotes mandotory</h3>
+            <form id="formation-insert" method="POST">
+                <label for="fullname">Full name*: </label><br>
+                <input type="text" name="full_name" placeholder="FirstName LastName"><br>
+                <label for="email">Email address*: </label><br>
+                <input type="text" name="email" placeholder="EMAIL_ADDRESS"><br>
+                <label for="select">Select Tour Package*: </label><br>
+                <select name="selector" id="selector"><br>
+                    <option value="Goat">Goat</option>
+                    <option value="Lion">Lion</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Tigger">Tigger</option>
+                </select><br>
+                <label for="Arrival">Arrival date*: </label><br>
+                <input type="datetime-local" name="arrival" id="arrival" placeholder="m/d/y"><br>
+                <label for="NumberPerson">Number of persons*: </label><br>
+                <input type="text" name="numberperson" placeholder="UNKNOWN_TYPE"><br>
+                <label for="checkbox">What would you want to avail?*</label><br>
+                Boarding<input type="checkbox" name="boarding"><br>
+                Fooding<input type="checkbox" name="fooding"><br>
+                Sight seeing<input type="checkbox" name="sight" placeholder="UNKNOWN_TYPE"><br>
+                <label for="coupon">Discount Coupon code: </label><br>
+                <input type="text" name="coupon" id="coupon" placeholder="UNKNOWN_TYPE"><br>
+                <label for="tnc">Terms Coupon code:</label><br>
+                <input type="radio" name="tnc" value="agree">I agree
+                <input type="radio" name="tnc" value="desagree">I disagree<br>
+                <input type="submit" name="complete" value="complete resevation">
+            </form>
+        </div>
+    </body>
+</html>
