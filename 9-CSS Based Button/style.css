@@ -1,0 +1,20 @@
+body{
+    background-color: #000000;
+}
+button {
+    position: relative;
+    width: 200px;
+    padding:8px;
+    background-color: #e61111;
+    border-color: #021100;
+    color: #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size:125%
+}
