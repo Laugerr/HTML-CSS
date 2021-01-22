@@ -1,0 +1,57 @@
+body {
+    margin: 15%;
+    background-color: black;
+}
+.stitched {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background: #0d90df;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    font-weight: normal;
+    -webkit-animation: infinite;
+    -webkit-animation-name: move1;
+    -webkit-animation-duration: 8s ;
+    position: relative;
+ }
+
+ .stitched01 {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background: #0d90df;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    font-weight: normal;
+    -webkit-animation: move 5s infinite;
+    -webkit-animation-duration: 8s;
+    position: relative;
+
+ }
+ @-webkit-keyframes move {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes move {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes move1 {
+    from {right: 0px;}
+    to {right: 200px;}
+}
