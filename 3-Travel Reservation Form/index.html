@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
     <body>
         <div >
             <h1>Travel reservation form</h1>
             <h3>* denotes mandotory</h3>
             <form id="formation-insert" method="POST">
                 <label for="fullname">Full name*: </label><br>
-                <input type="text" name="full_name" placeholder="FirstName LastName"><br>
+                <input class="info" type="text" name="full_name" placeholder="FirstName LastName"><br>
                 <label for="email">Email address*: </label><br>
-                <input type="text" name="email" placeholder="EMAIL_ADDRESS"><br>
+                <input class="info" type="text" name="email" placeholder="EMAIL_ADDRESS"><br>
                 <label for="select">Select Tour Package*: </label><br>
                 <select name="selector" id="selector"><br>
                     <option value="Goat">Goat</option>
@@ -30,7 +33,7 @@
                 <label for="tnc">Terms Coupon code:</label><br>
                 <input type="radio" name="tnc" value="agree">I agree
                 <input type="radio" name="tnc" value="desagree">I disagree<br>
-                <input type="submit" name="complete" value="complete resevation">
+                <input type="submit" class="submit" name="complete" value="complete resevation">
             </form>
         </div>
     </body>
